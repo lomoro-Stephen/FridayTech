@@ -1,0 +1,64 @@
+
+.process-container{
+    width: 100%;
+    height: 80vh;
+    height: fit-content;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+    padding: 20px;
+}
+
+.processHeadingInfo h2, 
+.processHeadingInfo h3,
+.processHeadingInfo p{
+    margin-bottom: 0.5%;
+}
+.process-title{
+    font-size: 1.5rem;
+}
+.process-step-content .process-step-parag{
+    font-size: 0.8rem;
+}
+.process-steps{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2%;
+    margin-top: 2%;
+}
+
+.process-step{
+    /* background: #f3f3f3; */
+    padding: 20px;
+    /* text-align: center; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.048);
+}
+.process-step-icon{
+    display: flex;
+    gap: 2%;
+    /* justify-content: center; */
+    align-items: center;
+}
+.process-step-icon i{
+    color: #9494947a;
+}
+.process-step-icon h4{
+    color: #e4c309;
+}
+.img-wrap{
+    /* background: red; */
+    width: 100%;
+    height: 100%;
+}
+.img-wrap img{
+    object-fit: fill;
+    width: 100%;
+    height: 400px;
+}
+.btnWrapper{
+    display: flex;
+    justify-content: flex-start;
+}

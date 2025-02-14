@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FridayTech</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet" href="styles/aboutUs.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/brand.css">
+    <link rel="stylesheet" href="styles/bannerSection.css">
+    <link rel="stylesheet" href="styles/processSection.css">
+    <link rel="stylesheet" href="styles/reasons-section.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles/testimonials.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/faqStyles.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="utils.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="navbar">
+                <ul>
+                    <li class="logo"><strong>FridayTech</strong></li>
+                </ul>
+                <ul class="nav-links">
+                    <li class="nav-link">Home</li>
+                    <li class="nav-link">About</li>
+                    <li class="nav-link">Skills</li>
+                    <li class="nav-link">Service</li>
+                    <li class="nav-link">Projects</li>
+                    <li class="nav-link">Prices</li>
+                    <li class="nav-link">Contact</li>
+                </ul>
+            </nav>
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h2>The Professionals you have Been Looking for</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, 
+                        aliquid eos rem autem consectetur consequuntur sapiente ducimus 
+                        accusantium aut doloribus magnam iusto impedit ratione natus 
+                        delectus, nihil ex quis nesciunt.
+                    </p>
+                    <button class="ctn">
+                        <span>Contact Us</span>
+                    </button>
+                </div>
+                <div class="smallCardsWrap">
+                    <div class="card1 card">
+                        <p class="cardFloatingPara">
+                            We turn ideas into stunning websites and engaging designs.
+                        </p>
+                    </div>
+                    <div class="card2 card">
+                        <p class="cardFloatingPara">
+                            We build visually stunning, high-performance websites tailored to your needs.
+                        </p>
+                    </div>
+                    <div class="heroImage">
+                        <img src="images/programer.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="about-section section">
+                <div class="about-wrap">
+                    <div class="about-content">
+                        <h3 class="bordered">About Us</h3>
+                        <h2 class="sectionTitle titleColor">Explore Who We Are</h2>
+                        <h2></h2>
+                        <p>
+                            At FridayTech, we believe in the power of great design 
+                            and seamless digital experiences. Whether it’s a stunning website, 
+                            eye-catching graphics, or intuitive UI/UX design, we craft solutions 
+                            that connect brands with people.
+                            We’re not just designers and developers—we’re storytellers, 
+                            problem solvers, and creative thinkers. Every project we take 
+                            on is a collaboration, where your ideas meet our expertise to 
+                            create something truly impactful.
+                        </p>
+                        <button class="borderedBtn">
+                            <span>Read More </span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="about-image">
+                        <img src="images/photoshopImage.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="arrow section">
+                <img src="images/dotedArrow.png" alt="">
+            </section> -->
+            <section class="brand section">
+                <div class="brand-wrapper">
+                    <h2 class="titleColor">
+                        Elevate Your Brand with Our <strong>Premium</strong> <span class="highlight">Design</span> & <span class="underline">Development</span> Services
+                    </h2>
+                    <p>
+                        Take your digital presence to the next level with our premium services. From advanced web development to stunning graphics and intuitive UI/UX design, we offer tailored solutions that help your brand stand out and thrive in the digital world. Let's create something extraordinary together.
+                    </p>
+                </div>
+            </section>
+            <section class="services-section section">
+                <div class="section-wrapper">
+                    <div>
+                        <h2 class="sectionTitle titleColor">What We Do?</h2>
+                        <p>We offer tailored solutions to elevate your brand’s digital presence</p>
+                   </div>
+                    <div class="flexWrapper">
+                        <div class="d-flex viewBtn">
+                            <span>view all</span>
+                            <span><i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="services-cards">
+                        <div class="service-card cardBorder">
+                            <h4 class="cardTitleColor">Web Development</h4>
+                            <p>
+                                We create websites that are not just beautiful but also functional, 
+                                fast, and easy to navigate. Whether you're looking to showcase your business, 
+                                run an e-commerce platform, or create a personal blog, we tailor each project
+                                to your needs.
+                            </p>
+                        </div>
+                        <div class="service-card cardBorder">
+                            <h4 class="cardTitleColor">
+                                Graphics Design
+                            </h4>
+                            <p>
+                                Our designs don’t just look good—they tell your brand’s story. 
+                                From logos to promotional materials, we create visuals that leave a 
+                                lasting impact and connect with your audience on a deeper level.
+                            </p>
+    
+                        </div>
+                        <div class="service-card cardBorder">
+                            <h4 class="cardTitleColor">
+                                UI/UX Design
+                            </h4>
+                            <p>We focus on creating intuitive, user-friendly interfaces that guide users effortlessly 
+                                through their digital experience. Our designs ensure that every 
+                                click feels natural, and every interaction is a delight.
+                                Would you like to adjust or add anything specific to these?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="banner-section section">
+                <div class="bannerwrapper">
+                   <div class="bannerContent">
+                        <h4 class="colorWhite">
+                            Looking for Talented, Passionate Designers and Developers?
+                        </h4>
+                        <p class="colorWhite">
+                            Our team is here to bring your ideas to life with creative, 
+                            high-quality solutions. Skip the hassle of searching—connect
+                            with our skilled professionals who are ready to turn your
+                            vision into reality in no time.
+                        </p>
+                        <button class="borderedBtn">Start Hiring us</button>
+                   </div>
+                   <div class="bannerImage">
+                    <img src="images/programmer2.png" alt="">
+                   </div>
+                </div>
+            </section>
+            <section class="process-section section">
+                <div class="process-container">
+                    <div class="img-wrap">
+                        <img src="images/wevdev.png" alt="">
+                    </div>
+                    <div class="process-wrapper">
+                        <div class="processHeadingInfo">
+                            <h2 class="sectionTitle font-w-300 titleColor">From Idea to Reality: Our Step-by-Step Process</h2>
+                            <p class="subtext">We believe great projects start with a great process. 
+                                Here’s how we transform your vision into a digital masterpiece.
+                            </p>
+                        </div>
+                        <div class="process-steps">
+                            <div class="process-step card-border">
+                                <div class="process-step-icon">
+                                    <i class="fas fa-bullseye"></i>
+                                    <h4 class="font-w-400">Discovery</h4>
+                                </div>
+                                <div class="process-step-content">
+                                    
+                                    <p class="process-step-parag">
+                                        Understand your goals, target audience, and unique challenges. 
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="process-step card-border">
+                                <div class="process-step-icon">
+                                    <i class="fas fa-bullseye"></i>
+                                    <h4 class="font-w-400">Ideation</h4>
+                                </div>
+                                <div class="process-step-content">
+                                    <p class="process-step-parag">
+                                        Our UI/UX designers create low-fidelity wireframes
+                                </div>
+                            </div>
+                            <div class="process-step card-border">
+                                <div class="process-step-icon">
+                                    <i class="fas fa-bullseye"></i>
+                                    <h4 class="font-w-400">Design & Development</h4>
+                                </div>
+                                <div class="process-step-content">
+                                    <p class="process-step-parag">
+                                        We craft high-fidelity UI designs using Figma/Adobe XD.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="process-step card-border">
+                                <div class="process-step-icon">
+                                    <i class="fas fa-bullseye"></i>
+                                    <h4 class="font-w-400">Testing & Feedback </h4>
+                                </div>
+                                <div class="process-step-content">
+                                    <p class="process-step-parag">
+                                        We conduct usability testing and gather feedback from users.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="process-step card-border spanTwo-col">
+                                <div class="process-step-icon">
+                                    <i class="fas fa-bullseye"></i>
+                                    <h4 class="font-w-400">Launch & Support</h4>
+                                </div>
+                                <div class="process-step-content">
+                                    <p class="process-step-parag">
+                                        <span>
+                                            <!-- tick icon -->
+                                             <i class="fas fa-check"></i>
+                                        </span>
+                                        We launch your project on the desired platform (web, mobile, or print).
+                                    </p>
+                                    <p class="process-step-parag">
+                                        <span>
+                                            <!-- tick icon -->
+                                             <i class="fas fa-check"></i>
+                                        </span>
+                                        We optimize the site for SEO, performance, and accessibility.
+                                    </p>
+                                    <p class="process-step-parag">
+                                        <span>
+                                            <!-- tick icon -->
+                                             <i class="fas fa-check"></i>
+                                        </span>
+                                        We provide post-launch support for updates, maintenance, or future scaling.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btnWrapper">
+                            <button class="borderedBtn">Let's Connect <span><i class="fa-solid fa-arrow-right"></i></span></button>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="reasons-section section">
+                <div class="reasons-container">
+                    <div class="reasons d-grid">
+                        <div class="reason txt-center">
+                            <h2 class="p-width titleColor">Why Choose Us?</h2>
+                            <!-- <p class="reason-parag txt-center p-width">We are a team of experienced professionals who are passionate about
+                                delivering high-quality solutions that meet our clients' needs.
+                            </p> -->
+                            <p class="p-width paragraph">
+                                We take pride in our creative excellence, crafting every design with precision 
+                                and innovation while keeping usability and accessibility at the heart of everything
+                                 we do. Your deadlines matter, so we work efficiently to deliver on time without 
+                                 compromising quality, and from concept to launch, we’re right there with you, 
+                                providing the support you need to bring your vision to life.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="projects-section section">
+            </section> -->
+            <section class="testimonials-section section">
+                <div class="testimonial-wrap">
+                    <div class="testmonial-content">
+                        <h2 class="sectionTitle titleColor">
+                            what others say about us
+                        </h2>
+                        <!-- tagline -->
+                         <p class="tagline">
+                            Our clients love us, and we're sure you will too!
+
+                         </p>
+                    </div>
+                    <div class="tcards-wrap">
+                        <div class="testmonial-cards">
+                            <div class="tcard">
+                                <div class="card-content">
+                                    <p class="quotes">
+                                        "I was blown away by the level of service and expertise that was provided by the team.
+                                        They truly went above and beyond to ensure that my project was a success."
+    
+                                    </p>
+                                </div>
+                                <div class="profile">
+                                    <div class="profile-image">
+                                        <img src="images/person1.jpg" alt="">
+                                    </div>
+                                    <div class="person-info">
+                                        <h5 class="name">Micheal Smith</h5>
+                                        <p class="position">
+                                            <span>CEO</span>
+                                            <span>XZcodes</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcard">
+                                <div class="card-content">
+                                    <p class="quotes">
+                                        "I was blown away by the level of service and expertise that was provided by the team.
+                                        They truly went above and beyond to ensure that my project was a success."
+                                    </p>
+                                </div>
+                                <div class="profile">
+                                    <div class="profile-image">
+                                        <img src="images/person2.jpg" alt="">
+                                    </div>
+                                    <div class="person-info">
+                                        <h5 class="name">Micheal Smith</h5>
+                                        <p class="position">
+                                            <span>CEO</span>
+                                            <span>XZcodes</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tcard">
+                                <div class="card-content">
+                                    <p class="quotes">
+                                        "I was blown away by the level of service and expertise that was provided by the team.
+                                        They truly went above and beyond to ensure that my project was a success."
+                                    </p>
+                                </div>
+                                <div class="profile">
+                                    <div class="profile-image">
+                                        <img src="images/person3.jpg" alt="">
+                                    </div>
+                                    <div class="person-info">
+                                        <h5 class="name">Micheal Smith</h5>
+                                        <p class="position">
+                                            <span>CEO</span>
+                                            <span>XZcodes</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </di>
+                        <button class="controller prev">
+                            <!-- left arrow -->
+                                <-
+                        </button>
+                        <button class="controller next">
+                            <!-- right arrow -->
+                                ->
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-section section">
+                <div class="section-info">
+                    <h2 class="sectionTitle titleColor">Reach Out To us</h2>
+                    <!-- tagline -->
+                     <p>Get in touch with us to learn more about our services and how we can help
+                        your business grow.</p>
+
+                </div>
+                <div class="contact-wrap">
+                    <div class="left-wrapper">
+                        <h2 class="FormTitle titleColor">Get in Touch</h2>
+                        <p class="">
+                            We'd love to hear from you. Whether you have a
+                            question, a project in mind, or just want to say hello, we're here to help
+                        </p>
+                        <div class="mapArea" id="map"></div>
+                        <div class="contact-info">
+                            <div>
+                                <h5>Head Office</h5>
+                                <p>123 Main St, Anytown, USA 12345</p>
+                                <div>
+                                    <h5>Email us</h5>
+                                    <p>
+                                        <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <hr class="verticleLine">
+                            <div>
+                                <h5>Call Us</h5>
+                                <p>
+                                    <a href="tel:123-456-7890">
+                                        <i class="fas fa-phone"></i>123-456-7890
+                                    </a>
+                                </p>
+                                <!-- whatsapp number -->
+                                 <p>
+                                    <a href="https://api.whatsapp.com/send?phone=1234567890">
+                                        <i class="fab fa-whatsapp"></i>123-456-7890
+                                    </a>
+                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-wrapper">
+                        <form class="contact-form" id="contact-form">
+                            <div class="inputControl">
+                                <label for="" class="label">First Name</label>
+                                <input type="text" class="name-field" placeholder="enter your first name">
+                            </div>
+                            <div class="inputControl">
+                                <label for="" class="label">Last Name</label>
+                                <input type="text" class="name-field" placeholder="enter your last name">
+                            </div>
+                            <div class="inputControl">
+                                <label for="" class="label">Email</label>
+                                <input type="email" class="email-field" placeholder="enter your email address">
+                            </div>
+                            <div class="inputControl">
+                                <label for="" class="label">Phone</label>
+                                <div class="field-group">
+                                    <select name="" id="">
+                                        <option value="">Country</option>
+                                        <option value="">+256</option>
+                                        <option value="">+211</option>
+                                        <option value="">+256</option>
+                                    </select>
+                                    <input type="tel" class="phone-field" placeholder="Enter your Phone Number">
+                                </div>
+                            </div>
+                            <div class="inputControl">
+                                <label for="Message"></label>
+                                <textarea name="" id="" placeholder="Type your Message here"></textarea>
+                            </div>
+                            <button class="formBtn hoveredBtn">
+                                <!-- icon -->
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="faq-estion section">
+                <div class="faq-wrapper">
+                    <div class="faq-content">
+                        <h2 class="titleColor">
+                            Frequently Asked Questions (FAQ)
+                        </h2>
+                        <p>
+                            Have questions? We’ve got answers! Below are some of the most common inquiries 
+                            about our products, services, and policies. 
+                            If you don’t find what you’re looking for, 
+                            feel free to reach out to us.
+                        </p>
+                    </div>
+                    <div class="faqs">
+                        <div class="faq">
+                            <h3>
+                                <!-- question -->
+                                 <button class="faq-btn" type="button" data-toggle="collapse" data-target="#
+                                 faq-1" aria-expanded="false" aria-controls="faq-1">
+                                 
+                                 <span>What is the purpose of this website?</span>
+                                 <i class="fas fa-plus"></i>
+                                </button>
+                                
+                            </h3>
+                            <!-- answer -->
+                            <div id="faq-1" class="collapse hidden" aria-labelledby="faq-1"
+                            data-parent="#faq-1">
+                                <!-- answer here -->
+                                <p> This website is created to provide information about our company and its services. It is
+                                    designed to be user-friendly and easy to navigate, with a clean and modern design. The website
+                                    includes a contact form, a map, and a FAQ section, making it easy for visitors to
+                                    find the information they need. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq">
+                            <h3>
+                                <!-- question -->
+                                 <button class="faq-btn" type="button" data-toggle="collapse" data-target="#
+                                 faq-1" aria-expanded="false" aria-controls="faq-1">
+                                 
+                                 <span>What is the purpose of this website?</span>
+                                 <i class="fas fa-plus"></i>
+                                </button>
+                                
+                            </h3>
+                            <!-- answer -->
+                            <div id="faq-1" class="collapse hidden" aria-labelledby="faq-1"
+                            data-parent="#faq-1">
+                                <!-- answer here -->
+                                <p> This website is created to provide information about our company and its services. It is
+                                    designed to be user-friendly and easy to navigate, with a clean and modern design. The website
+                                    includes a contact form, a map, and a FAQ section, making it easy for visitors to
+                                    find the information they need. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq">
+                            <h3>
+                                <!-- question -->
+                                 <button class="faq-btn" type="button" data-toggle="collapse" data-target="#
+                                 faq-1" aria-expanded="false" aria-controls="faq-1">
+                                 
+                                 <span>What is the purpose of this website?</span>
+                                 <i class="fas fa-plus"></i>
+                                </button>
+                                
+                            </h3>
+                            <!-- answer -->
+                            <div id="faq-1" class="collapse hidden" aria-labelledby="faq-1"
+                            data-parent="#faq-1">
+                                <!-- answer here -->
+                                <p> This website is created to provide information about our company and its services. It is
+                                    designed to be user-friendly and easy to navigate, with a clean and modern design. The website
+                                    includes a contact form, a map, and a FAQ section, making it easy for visitors to
+                                    find the information they need. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq">
+                            <h3>
+                                <!-- question -->
+                                 <button class="faq-btn" type="button" data-toggle="collapse" data-target="#
+                                 faq-1" aria-expanded="false" aria-controls="faq-1">
+                                 
+                                 <span>What is the purpose of this website?</span>
+                                 <i class="fas fa-plus"></i>
+                                </button>
+                                
+                            </h3>
+                            <!-- answer -->
+                            <div id="faq-1" class="collapse hidden" aria-labelledby="faq-1"
+                            data-parent="#faq-1">
+                                <!-- answer here -->
+                                <p> This website is created to provide information about our company and its services. It is
+                                    designed to be user-friendly and easy to navigate, with a clean and modern design. The website
+                                    includes a contact form, a map, and a FAQ section, making it easy for visitors to
+                                    find the information they need. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq">
+                            <h3>
+                                <!-- question -->
+                                 <button class="faq-btn" type="button" data-toggle="collapse" data-target="#
+                                 faq-1" aria-expanded="false" aria-controls="faq-1">
+                                 
+                                 <span>What is the purpose of this website?</span>
+                                 <i class="fas fa-plus"></i>
+                                </button>
+                                
+                            </h3>
+                            <!-- answer -->
+                            <div id="faq-1" class="collapse hidden" aria-labelledby="faq-1"
+                            data-parent="#faq-1">
+                                <!-- answer here -->
+                                <p> This website is created to provide information about our company and its services. It is
+                                    designed to be user-friendly and easy to navigate, with a clean and modern design. The website
+                                    includes a contact form, a map, and a FAQ section, making it easy for visitors to
+                                    find the information they need. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer section">
+            <div class="footer-content">
+                <ul class="footer-info">
+                    <div>
+                        <p>FridayTech</p>
+                        <!-- <h3>
+                            Ready to elevate your Brand
+                        </h3> -->
+                        <ul class="socialmedia">
+                            <li>
+                                <a href="https://www.instagram.com/"
+                                target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            </li>
+                            <li>
+                                
+                                 <a href="https://www.linkedin.com/"target="_blank">
+                                 <!-- icon -->
+                                  <i class="fab fa-linkedin"></i></a>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/"target="_blank">
+                                    <i class="fab fa-facebook-f"></i></a>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="footer-links">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <ul class="footer-links">
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Help</a></li>
+                        <li><a href="">Faqs</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>
+                    <div class="subscribe-wrap">
+                        <h3>Get the latest design insights straight to your inbox.</h2>
+                        <form action="" class="subscriptionForm">
+                            <input type="text" placeholder="Enter your email e.g example@gmail.com">
+                            <button>Subscribe</button>
+                        </form>
+                    </div>
+                </ul>
+                <hr class="footer-seperator">
+                <p class="copyRight">Copyright &copy; <span class="year">2025</span> FridayTech. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script>
+        // Business location: Arua City, Uganda (approximate coordinates)
+        var businessLat = 3.0301;  
+        var businessLng = 30.9122; 
+
+        var map = L.map('map').setView([businessLat, businessLng], 15); // Zoom level 15
+
+        // Load OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Add a custom marker for your business
+        L.marker([businessLat, businessLng]).addTo(map)
+            .bindPopup("<b>FridayTech</b><br>Arua City, Weather Parklane, Uganda.")
+            .openPopup();
+    </script>
+</body>
+</html>

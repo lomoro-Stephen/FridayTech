@@ -1,0 +1,67 @@
+.footer{
+    background: black;
+    color: #fff;
+}
+.footer-info{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    gap: 0.8rem;
+}
+.subscribe-wrap{
+    /* justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.subscribe-wrap h3{
+    color: #929292;
+}
+.socialmedia{
+    display: flex;
+    gap: 0.6rem;
+}
+.socialmedia li a i{
+    color: #929292;
+    transition: 0.6s ease all;
+}
+.socialmedia li a i:hover{
+    color: #09e414;
+}
+.subscriptionForm{
+    display: flex;
+    gap: 8px;
+}
+.subscriptionForm input{
+    padding: 0.6rem;
+    border: 1px solid #99999952;
+    /* border-radius: 5px; */
+}
+.subscriptionForm input[type="text"]{
+    width: 100%;
+    
+}
+.subscriptionForm button{
+    background-color: #09e414;
+    color: #fff;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 5px;
+}
+
+.footer-links li a{
+    color: var(--footerLinksColor);
+    transition: 0.6s ease all;
+}
+.footer-links li a:hover{
+    color: var(--linksHovered);
+    
+}
+.footer-seperator{
+    border: 1px solid var(--lineColor);
+    margin-top: 50px;
+}
+.copyRight{
+    text-align: center;
+    margin-top: 50px;
+}

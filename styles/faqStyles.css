@@ -1,0 +1,30 @@
+.faq-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid var(--border-Color);
+    background-color:transparent;
+}
+.faq-wrapper , .faqs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.faq-wrapper{
+    gap: 30px;
+}
+.faqs{
+    gap: 10px;
+}
+.faq-content p{
+    width: 60%;
+}
+.faq-content h2{
+    font-size: 2.0rem;
+    font-weight: 400;
+}
+.faq h3 button{
+    color: var(--paragraphText-color);
+    font-size: 1.2rem;
+}

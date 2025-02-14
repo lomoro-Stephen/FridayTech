@@ -1,0 +1,35 @@
+.banner-section{
+    background: rgb(1, 1, 12);
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    z-index: -2;
+}
+.banner-section::before{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: '';
+    background: url('/images/patt.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+}
+.bannerwrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 30px;
+}
+.banner-section .bannerwrapper h4{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.bannerImage img{
+    width: 80%;
+    object-fit: fill;
+}

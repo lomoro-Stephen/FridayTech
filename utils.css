@@ -1,0 +1,202 @@
+:root{
+    /* global colors */
+    --background-color: linear-gradient(45deg, rgba(0, 0, 0, 0.897) 5%, #000108 90%);
+    --paragraphText-color:#ccc;
+    --titleTextColor: #d4d4d4;
+    --labelColor:#ccc;
+    --cardTitleColor: #e9bf05;
+    --greenColor:#09e414;
+    --mainColor: #09e414;
+    --lineColor: rgba(179, 179, 179, 0.164);
+    --buttonColor: #01cf0b;
+    --buttonBorderColor: #01cf0b;
+    --neutral: #fff;
+    --subTitleColor: #9b9b9b;
+    --white:#fff;
+    --colorWhite:#eeeeee;
+
+    /* links color */
+    --footerLinksColor: rgba(216, 216, 216, 0.795);
+    --linksHovered: #09e414;
+    
+    /* Border global styles */
+    --border-Color: #35353541;
+    --inputBorderColor:#13131348;
+    
+    /* focus global color styles */
+    --focusColor:#8d6d03;
+
+    /* button Hover colors */
+    --buttonHoverColor: #02a50a;
+    --buttonHovered:rgb(1, 128, 1);
+}
+
+/* .container{
+    background: var(--background-color);
+} */
+
+
+
+button{
+    cursor: pointer;
+}
+.hoveredBtn:hover{
+    background-color: var(--buttonHovered);
+    transition: 0.6s ease all;
+}
+.section {
+    padding: 6rem;
+}
+.main-padding {
+    padding: 1.2rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+.txt-center{
+    text-align: center;
+}
+.p-width{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flexWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+    gap: 5px;
+}
+
+/* display grid with two columns */
+.d-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2%;
+}
+.font-w-500{
+    font-weight: 500;
+}
+.viewBtn{
+    cursor: pointer;
+    color: var(--paragraphText-color);
+}
+.font-w-400{
+    font-weight: 400;
+}
+.font-w-300{
+    font-weight: 300;
+}
+.spanTwo-col{
+    grid-column: span 2;
+}
+.colorWhite{
+    color: var(--colorWhite);
+}
+.section p{
+    font-size: 1.05rem;
+    color: var(--paragraphText-color);
+}
+
+.sectionTitle{
+    font-size: 2.0rem;
+    font-weight: 400;
+}
+.section .subtext{
+    width: 100%;
+    font-size: 0.9rem;
+    color:var(--subTitleColor) ;
+}
+.bordered{
+    width: fit-content;
+    padding: 4px;
+    border-bottom: 1px solid var(--border-Color);
+    /* border-radius: 10px; */
+    font-size: 0.8rem;
+    color: #6b6b6b;
+}
+.borderedBtn{
+    border: 1px solid var(--buttonBorderColor);
+    background-color: transparent;
+    color: var(--mainColor);
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 2.4rem;
+    cursor: pointer;
+}
+.card-border{
+    border: 1px solid #a3a3a3;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ctn {
+    padding: 10px 20px;
+    background-color: rgb(250, 250, 250);
+    border: none;
+    border: 2px solid var(--white);
+    margin-top: 1.6rem;
+    border-radius: 5px;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+    font-weight: bold;
+    color: var(--mainColor);
+    cursor: pointer;
+    transition: width 0.5s ease-in, border 0.5s ease-in, color 0.5s ease-in;
+}
+.ctn:hover{
+    color: var(--neutral);
+}
+.ctn::before {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -3;
+    transition: width 0.5s ease-in, background-color 0.5s ease-in, color 0.5s ease-in;
+}
+
+.ctn:hover::before {
+    width: 100%;
+    background-color:var(--buttonColor);
+}
+.cardFloatingPara{
+    font-size: 0.8rem;
+    text-align: left;
+    font-weight: 300;
+}
+.cardFloatingTitle{
+    font-size: 0.9rem;
+    text-align: left;
+    font-weight: 300;
+}
+.fontSize-lg{
+    font-size: 2.4rem;
+    color: var(--mainColor);
+}
+/* .colorW{
+    color: #752c2c;
+} */
+.titleColor{
+    color: var(--titleTextColor);
+}
+.cardBorder{
+    border: 1px solid var(--border-Color);
+}
+.cardTitleColor{
+    color: var(--cardTitleColor);
+}
+input,select,textarea{
+    background: transparent;
+    border: 1px solid var(--inputBorderColor);
+    color: var(--paragraphText-color);
+}
+.label{
+    color: var(--labelColor);
+}

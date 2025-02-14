@@ -1,0 +1,103 @@
+.section-info{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section-info h2{
+    font-weight: 300;
+    font-size: 2.0rem;
+}
+.section-info p{
+    width: 40%;
+    margin:0 auto;
+}
+.contact-wrap{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2%;
+    background-color: #0f0f0fc5;
+}
+.left-wrapper{
+    background-color: #0c0c0c;
+    padding: 20px 40px;
+    color: #ccc;
+}
+.right-wrapper{
+    padding: 20px;
+}
+.mapArea{
+    height: 400px;
+    /* background-color: black; */
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.inputControl input, .inputControl select,
+.inputControl textarea{
+    padding: 0.8rem;
+    border: 1px solid #99999952;
+    border-radius: 5px;
+}
+.inputControl input[type="text"],
+.inputControl input[type="email"],
+.inputControl input[type="tel"],
+.inputControl textarea
+{
+    width: 100%;
+    
+}
+.field-group{
+    display: flex;
+    gap: 6px;
+}
+.inputControl textarea
+{
+    height: 180px;
+    padding: 10px;
+    resize: none;
+}
+input, textarea {
+    outline: none; 
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input:focus, textarea:focus {
+    border:2px solid var(--focusColor); 
+  }
+
+  #map {
+    height: 300px;
+    width: 100%;
+}
+.formBtn{
+    border: none;
+    background-color: var(--buttonColor);
+    color: var(--neutral);
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-info{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+.contact-info a{
+    color: #ccc;
+}
+.contact-info h5{
+    font-weight: 300;
+}
+.FormTitle{
+    font-weight: 300;
+}
+.hidden{
+    display: none;
+}
+.verticleLine{
+    height: 60px;
+    width: 1px;
+    border-left: 1px solid #ccc;
+}
