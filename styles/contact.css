@@ -132,4 +132,10 @@ input, textarea {
     .contact-form{
         gap: 12px;
     }
+    .left-wrapper p{
+        margin-bottom: 30px;
+    }
+    .left-wrapper{
+        padding: 5px;
+    }
 }

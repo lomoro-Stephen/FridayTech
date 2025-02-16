@@ -23,3 +23,11 @@
 .reason .paragraph{
     color: var(--paragraphText-color);
 }
+
+@media screen and (max-width:480px){
+    .reason  h2, .reason .paragraph{
+        text-align: center;
+        width: 100%;
+    }
+    
+}
