@@ -49,6 +49,7 @@ button{
 }
 .section {
     padding: 6rem;
+    height: fit-content;
 }
 .main-padding {
     padding: 1.2rem;

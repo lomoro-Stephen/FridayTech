@@ -3,13 +3,15 @@
 }
 
 .testmonial-cards{
+    width: 100%;
     display: flex;
     gap: 40px;
     margin-top: 50px;
-    width: 100%;
+    overflow: hidden;
 }
 .tcard{
-    width: calc(100% / 3);
+    width: 100%;
+    flex: 1 0 calc(33.333% - 30px);
     border: 1px solid var(--border-Color);
     padding: 20px;
     border-radius: 5px;
@@ -68,6 +70,7 @@
 .tcards-wrap .next{
     right: -38px;
 }
+
 @media screen and (max-width:480px){
     .testimonial-wrap{
         padding: 40px;
