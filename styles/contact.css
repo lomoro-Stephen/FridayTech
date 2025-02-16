@@ -135,7 +135,10 @@ input, textarea {
     .left-wrapper p{
         margin-bottom: 30px;
     }
-    .left-wrapper{
+    .left-wrapper,.right-wrapper{
         padding: 5px;
+    }
+    .contact-wrap{
+        background-color: transparent;
     }
 }

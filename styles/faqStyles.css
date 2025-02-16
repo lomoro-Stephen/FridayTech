@@ -32,4 +32,9 @@
     .faq-content p{
         width: 100%;
     }
+    .faq h3 button{
+        color: var(--paragraphText-color);
+        font-size: 1.0rem;
+        padding: 6px;
+    }
 }
