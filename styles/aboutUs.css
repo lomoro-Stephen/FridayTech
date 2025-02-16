@@ -1,7 +1,5 @@
 .about-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
 }
 .about-wrap{
     width: 100%;
@@ -18,4 +16,13 @@
     height: 100%;
     object-fit: fill;
     align-items: end;
+}
+
+@media  screen and (max-width: 500px) {
+    .about-wrap{
+        grid-template-columns: 1fr;
+    }
+    .about-image{
+        height: 300px;
+    }
 }

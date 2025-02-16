@@ -65,3 +65,14 @@
     text-align: center;
     margin-top: 50px;
 }
+@media screen and (max-width:480px){
+    .footer-info{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.8rem;
+    }
+    .subscribe-wrap:last-child{
+        /* span all the 3 columns */
+        grid-column: span 3;
+        margin-top: 20px;
+    }
+}

@@ -23,3 +23,17 @@
     justify-content: flex-end;
     padding-bottom: 20px;
 }
+
+@media screen and (max-width: 480px){
+    .services-cards{
+        grid-template-columns: 1fr;
+    }
+    .services-cards .service-card p{
+        font-size: 0.9rem;
+    }
+    .section-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

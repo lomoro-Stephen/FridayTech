@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2%;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .processHeadingInfo h2, 
@@ -27,19 +27,17 @@
     grid-template-columns: repeat(2,1fr);
     gap: 2%;
     margin-top: 2%;
+    
 }
 
 .process-step{
-    /* background: #f3f3f3; */
     padding: 20px;
-    /* text-align: center; */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.048);
 }
 .process-step-icon{
     display: flex;
     gap: 2%;
-    /* justify-content: center; */
     align-items: center;
 }
 .process-step-icon i{
@@ -61,4 +59,38 @@
 .btnWrapper{
     display: flex;
     justify-content: flex-start;
+}
+
+@media screen and (max-width:480px){
+    .process-container{
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+    
+    .processHeadingInfo h2, 
+    .processHeadingInfo h3,
+    .processHeadingInfo p{
+        margin-bottom: 10%;
+    }
+    .process-title{
+        font-size: 1.5rem;
+    }
+    .process-step-content .process-step-parag{
+        font-size: 0.8rem;
+    }
+    .process-steps{
+        grid-template-columns: 1fr;
+        margin-bottom: 5%;
+    }
+    
+    .process-step{
+        padding: 10px;
+    }
+    .process-step-icon h4{
+        font-size: 0.9rem;
+    }
+    .img-wrap img{
+        height: 200px;
+    }
+    
 }

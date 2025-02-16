@@ -28,3 +28,8 @@
     color: var(--paragraphText-color);
     font-size: 1.2rem;
 }
+@media screen and (max-width:480px){
+    .faq-content p{
+        width: 100%;
+    }
+}
