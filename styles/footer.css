@@ -75,4 +75,14 @@
         grid-column: span 3;
         margin-top: 20px;
     }
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .company-info{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }

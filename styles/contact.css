@@ -129,5 +129,7 @@ input, textarea {
         width: 100%;
         border-left: 1px solid #047500;
     }
-    
+    .contact-form{
+        gap: 12px;
+    }
 }

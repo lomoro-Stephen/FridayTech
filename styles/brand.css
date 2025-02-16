@@ -21,5 +21,8 @@
     .brand-wrapper h2{
         font-size: 0.9rem;
     }
+    .brand-wrapper p{
+        width: 100%;
+    }
     
 }
