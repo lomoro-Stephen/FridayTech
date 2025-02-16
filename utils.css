@@ -101,7 +101,7 @@ h2{
     color: var(--colorWhite);
 }
 .section p{
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     color: var(--paragraphText-color);
 }
 
@@ -211,11 +211,14 @@ input,select,textarea{
         padding:4rem 1.2rem;
     }
     .section h2{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        
         margin: 20px 0;
     }
     .section p{
-        font-size: 0.9rem;
+        font-size: 1.02rem;
+        /* add line height */
+        line-height: 1.5rem;
     }
     .spanTwo-col{
         grid-column: span 1;
